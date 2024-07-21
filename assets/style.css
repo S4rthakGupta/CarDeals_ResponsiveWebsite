@@ -19,8 +19,15 @@ body {
     width: 100%;
     padding: 30px 8%;
     background: transparent;
-    z-index: 1000; /* Ensure the header stays on top */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
+}
+
+.logo
+{
+    font-size: 25px;
+    color: #222;
+    text-decoration: none;
 }
