@@ -286,6 +286,10 @@ body {
         top: 0; /* Adjust top position */
     }
 
+
+
+    
+
     .logo {
         font-size: clamp(20px, 2vw + 1rem, 25px);
     }
