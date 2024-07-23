@@ -191,6 +191,96 @@ body {
 }
 /* Index (Home styling starts here */
 
+
+
+/* Styling for Contact Page (Starts here) */
+.contact-form {
+    padding: 50px 8%;
+    background: #f8f8f8;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.map {
+    padding: 50px 8%;
+    background: #ffffff;
+}
+
+.map h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.map p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    border: 0;
+    height: 450px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Styling for footer starts here */
 .footer {
     background: #000000;
