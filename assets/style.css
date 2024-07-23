@@ -30,7 +30,7 @@ body {
     font-size: 25px;
     color: #222;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 800;
     opacity: 0;
     animation: slideRight 1s ease forwards;
 }
@@ -66,7 +66,7 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     text-decoration: none;
     transform: rotate(45deg);
     transition: .5s;
@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 8% 0;
+    padding: 1px 8% 0;
     overflow: hidden;
 }
 
@@ -191,9 +191,9 @@ body {
 }
 
 .footer {
-    background: #222;
+    background: #000000;
     color: #fff;
-    padding: 50px 8%;
+    padding: 0px 8%;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -250,6 +250,12 @@ body {
     color: #1743e3;
 }
 
+.footer-section a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
 .footer-section .socials a i {
     color: #fff;
 }
@@ -265,7 +271,6 @@ body {
 .footer-section .links ul li a {
     color: #bbb;
     text-decoration: none;
-    transition: color 0.3s;
 }
 
 .footer-section .links ul li a:hover {
@@ -274,7 +279,7 @@ body {
 
 .footer-bottom {
     text-align: center;
-    padding: 20px 0;
+    padding: 4px 0;
     border-top: 1px solid #444;
 }
 
