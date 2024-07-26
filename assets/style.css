@@ -703,6 +703,26 @@ iframe {
     .footer-bottom {
         font-size: 14px;
     }
+
+    .sell-car-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sell-car-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .sell-car-image {
+        width: 100%;
+    }
+
+    .sell-car-image img {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* Second breakpoint of media query */
