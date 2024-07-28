@@ -476,12 +476,23 @@ body {
 
 
 /* Styling for Contact Page (Starts here) */
-.contact-form {
+.contact-container {
+    display: flex;
+    justify-content: space-between;
     padding: 50px 8%;
     background: #f8f8f8;
+    gap: 20px; /* Adding some gap between the columns */
 }
 
-.contact-form h2 {
+.contact-form, .map {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2, .map h2 {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -514,17 +525,6 @@ body {
 
 .form-group textarea {
     resize: vertical;
-}
-
-.map {
-    padding: 50px 8%;
-    background: #ffffff;
-}
-
-.map h2 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .map p {
