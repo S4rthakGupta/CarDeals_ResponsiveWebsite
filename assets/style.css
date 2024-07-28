@@ -288,9 +288,44 @@ body {
     background: #0f2a7f;
 }
 /* Styling for products page ends here */
+/* How It Works Section */
+.how-it-works-section {
+    padding: 50px 8%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-/* Styling for Sell page starts here */
-/* Styling for Sell Your Car Page */
+.how-it-works-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.step {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.step i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #1743e3;
+}
+
+.step h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 14px;
+}
+
+/* Sell Car Section */
 .sell-car-section {
     padding: 50px 8%;
     background-color: #f4f4f4;
@@ -357,6 +392,10 @@ body {
 
 .sell-car-image {
     flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .sell-car-image img {
@@ -364,7 +403,6 @@ body {
     height: auto;
     border-radius: 8px;
 }
-/* styling for sell page ends here */
 
 
 
