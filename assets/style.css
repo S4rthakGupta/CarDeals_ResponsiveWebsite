@@ -565,7 +565,7 @@ body {
     resize: vertical;
 }
 
-.map p, .office-hours p, .details p {
+.map p, .office-hours p {
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -594,6 +594,13 @@ iframe {
     font-size: 12px;
     /* margin-bottom: px; */
 }
+
+#details-p1
+{
+    font-weight: 800;
+}
+
+
 
 .details span {
     font-size: 24px;
