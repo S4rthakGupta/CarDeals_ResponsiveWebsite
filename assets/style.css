@@ -237,7 +237,7 @@ body {
 
 .car-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
     gap: 20px;
 }
 
@@ -290,8 +290,7 @@ body {
 /* Styling for products page ends here */
 /* How It Works Section */
 .how-it-works-section {
-    padding: 50px 8%;
-    background-color: #f4f4f4;
+    padding: 15px 8%;
     text-align: center;
 }
 
@@ -307,7 +306,6 @@ body {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 .step i {
@@ -326,6 +324,12 @@ body {
 }
 
 /* Book Service Section */
+.how-it-works-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .book-service-section {
     padding: 50px 8%;
     background-color: #f4f4f4;
@@ -435,85 +439,6 @@ body {
     float: right;
     margin-top: 10px;
 }
-/* Sell Car Section
-.sell-car-section {
-    padding: 50px 8%;
-    background-color: #f4f4f4;
-}
-
-.sell-car-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.sell-car-form {
-    flex: 1;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.sell-car-form h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.sell-car-form p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group select {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.estimate-btn {
-    padding: 10px 20px;
-    background-color: #1743e3;
-    border: none;
-    border-radius: 6px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.estimate-btn:hover {
-    background-color: #0f2a7f;
-}
-
-.sell-car-image {
-    flex: 1;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.sell-car-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-} */
-
 
 
 /* Styling for About Page (Starts here) */
@@ -522,7 +447,7 @@ body {
     background: #ffffff;
 }
 
-.about-us h2 {
+.about-us h1 {
     font-size: 36px;
     font-weight: 600;
     text-align: center;
@@ -624,6 +549,14 @@ body {
 
 
 /* Styling for Contact Page (Starts here) */
+.book-service-section h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
 .contact-container {
     display: flex;
     justify-content: space-between;
@@ -925,6 +858,11 @@ iframe {
     }
 
     .book-service-content
+    {
+        flex-direction: column;
+    }
+
+    .how-it-works-content
     {
         flex-direction: column;
     }
