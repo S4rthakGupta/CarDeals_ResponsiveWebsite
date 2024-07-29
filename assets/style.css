@@ -325,7 +325,117 @@ body {
     font-size: 14px;
 }
 
-/* Sell Car Section */
+/* Book Service Section */
+.book-service-section {
+    padding: 50px 8%;
+    background-color: #f4f4f4;
+}
+
+.book-service-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-type, .book-service-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-type h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-type ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-type li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.book-service-form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-type h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-type .fa-check
+{
+    color: green;
+}
+.service-type .fa-xmark
+{
+    color: red;
+}
+
+.book-service-section h1
+{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.book-btn {
+    padding: 10px 20px;
+    background-color: #1743e3;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #0f2a7f;
+}
+
+.service-btn {
+    padding: 10px 20px;
+    background-color: #1743e3;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.service-btn {
+    float: right;
+    margin-top: 10px;
+}
+/* Sell Car Section
 .sell-car-section {
     padding: 50px 8%;
     background-color: #f4f4f4;
@@ -402,7 +512,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-}
+} */
 
 
 
@@ -810,6 +920,11 @@ iframe {
     }
 
     .contact-container
+    {
+        flex-direction: column;
+    }
+
+    .book-service-content
     {
         flex-direction: column;
     }

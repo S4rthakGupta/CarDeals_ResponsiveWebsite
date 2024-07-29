@@ -31,78 +31,111 @@
         </div>
     </header>
         
-    <main>
-        <section class="how-it-works-section">
-            <h2>How It Works</h2>
-            <div class="how-it-works-content">
-                <div class="step">
-                    <i class="fas fa-truck"></i>
-                    <h3>Describe Your Ride</h3>
-                    <p>Share a few quick details about your car’s condition and history.</p>
-                </div>
-                <div class="step">
-                    <i class="fas fa-hand-holding-usd"></i>
-                    <h3>View Your Firm Offer</h3>
-                    <p>Get a firm offer immediately, with insights on market trends.</p>
-                </div>
-                <div class="step">
-                    <i class="fas fa-calendar-alt"></i>
-                    <h3>Set a Date</h3>
-                    <p>Drop your car off at one of our locations, or arrange a pick-up.</p>
-                </div>
-            </div>
-        </section>
+    <!-- <main> -->
+        
 
-        <section class="sell-car-section">
-            <div class="sell-car-content">
-                <div class="sell-car-image">
-                    <img src="assets/images/car.png" alt="Car Image">
+        <main>
+            <section class="book-service-section">
+                <h1>Book Your Car Service</h1>
+                <div class="book-service-content">
+                    
+                    
+                    <div class="book-service-form">
+                        <h3>Fill out the details</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Preferred Date:</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Type:</label>
+                                <select id="service" name="service">
+                                    <option value="premium">Premium Service</option>
+                                    <option value="golden">Golden Service</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="book-btn">Book Service</button>
+                        </form>
+                    </div>
+    
+                    
+
+                    <div class="service-type">
+                        <h3>Premium Service</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-xmark"></i> Detailing</li>
+                        <li><i class="fa-solid fa-check"></i> Oil Change</li>
+                        <li><i class="fa-solid fa-xmark"></i> Tire Rotation</li>
+                        <li><i class="fa-solid fa-check"></i> Brake Inspection</li>
+                        <li><i class="fa-solid fa-xmark"></i> Battery Check</li>
+                        <li><i class="fa-solid fa-check"></i> Transmission Service</li>
+                        <li><i class="fa-solid fa-xmark"></i> Alignment</li>
+                        <li><i class="fa-solid fa-xmark"></i> Engine Diagnostics</li>
+                        <li><i class="fa-solid fa-check"></i> Fluid Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Air Filter Replacement</li>
+                        <li><i class="fa-solid fa-xmark"></i> Wiper Blade Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Exhaust Inspection</li>
+                    </ul>
                 </div>
-                <div class="sell-car-form">
-                    <h1>Sell Your Car 100% Online</h1>
-                    <p>Get an instant estimate of your car.</p>
-                    <form>
-                        <div class="form-group">
-                            <label for="region">Region:</label>
-                            <select id="region" name="region">
-                                <option value="">Select Region</option>
-                                <option value="north">North</option>
-                                <option value="south">South</option>
-                                <option value="east">East</option>
-                                <option value="west">West</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="year">Year:</label>
-                            <input type="number" id="year" name="year" placeholder="Year" min="1900" max="2024">
-                        </div>
-                        <div class="form-group">
-                            <label for="make">Make:</label>
-                            <input type="text" id="make" name="make" placeholder="Make">
-                        </div>
-                        <div class="form-group">
-                            <label for="model">Model:</label>
-                            <input type="text" id="model" name="model" placeholder="Model">
-                        </div>
-                        <div class="form-group">
-                            <label for="trim">Trim:</label>
-                            <input type="text" id="trim" name="trim" placeholder="Trim">
-                        </div>
-                        <div class="form-group">
-                            <label for="mileage">Mileage (in KM):</label>
-                            <input type="number" id="mileage" name="mileage" placeholder="Mileage in KM">
-                        </div>
-                        <button type="submit" class="estimate-btn">Estimate Price</button>
-                    </form>
+
+                <div class="service-type">
+                    <h3>Golden Service</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Full Detailing</li>
+                        <li><i class="fa-solid fa-check"></i> Oil Change</li>
+                        <li><i class="fa-solid fa-check"></i> Tire Rotation</li>
+                        <li><i class="fa-solid fa-check"></i> Brake Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> Battery & Engine Check</li>
+                        <li><i class="fa-solid fa-check"></i> Tire Rotation, Alignment</li>
+                        <li><i class="fa-solid fa-check"></i> Complete Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> Suspension Check</li>
+                        <li><i class="fa-solid fa-check"></i> Cooling System Service</li>
+                        <li><i class="fa-solid fa-check"></i> Fluid Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Air Filter Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Wiper Blade Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Steering System Check</li>
+                        <li><i class="fa-solid fa-check"></i> Lighting System Check</li>
+                        <li><i class="fa-solid fa-check"></i> Electrical System Diagnostics</li>
+                        <li><i class="fa-solid fa-check"></i> Transmission Flush</li>
+                        <li><i class="fa-solid fa-check"></i> Interior Sanitization</li>
+                    </ul>
                 </div>
-                <div class="sell-car-testimonial">
-                    <h3>What Our Customers Say</h3>
-                    <p>"Selling my car was a breeze. I got a great offer and the process was so simple!"</p>
-                    <p>- John Doe</p>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+
+            <section class="how-it-works-section">
+                <h2>How It Works</h2>
+                <div class="how-it-works-content">
+                    <div class="step">
+                        <i class="fas fa-truck"></i>
+                        <h3>Describe Your Ride</h3>
+                        <p>Share a few quick details about your car’s condition and history.</p>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <h3>View Your Firm Offer</h3>
+                        <p>Get a firm offer immediately, with insights on market trends.</p>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Set a Date</h3>
+                        <p>Drop your car off at one of our locations, or arrange a pick-up.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
 
     <footer class="footer">
         <div class="footer-content">
