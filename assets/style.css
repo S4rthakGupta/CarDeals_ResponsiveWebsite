@@ -26,7 +26,7 @@ body {
 
 
 .logo {
-    font-size: 25px;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     text-decoration: none;
     color: blue;
     font-family: "Anton SC", sans-serif;
@@ -43,7 +43,7 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 18px;
+    font-size: clamp(1rem, 2vw, 1.125rem);
     color: #222;
     text-decoration: none;
     font-weight: 500;
@@ -85,7 +85,7 @@ body {
 }
 
 .social-media a i {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 3vw, 2rem);
     color: rgb(0, 0, 0);
     transform: rotate(-45deg);
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .home-content h1 {
-    font-size: 50px;
+    font-size: clamp(2rem, 6vw, 3.125rem);
     line-height: 1.2;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -117,7 +117,7 @@ body {
 }
 
 .home-content h3 {
-    font-size: 40px;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     color: #1743e3;
     opacity: 0;
     animation: slideRight 1s ease forwards;
@@ -125,7 +125,7 @@ body {
 }
 
 .home-content p {
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     margin: 15px 0 30px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -139,7 +139,7 @@ body {
     border: 2px solid #1743e3;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
@@ -218,7 +218,7 @@ body {
 .car-search-bar {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #ffffff;
@@ -235,7 +235,7 @@ body {
     border: none;
     border-radius: 6px;
     color: white;
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -264,19 +264,19 @@ body {
 }
 
 .car-grid-item h3 {
-    font-size: 20px;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
     font-weight: 600;
     margin: 15px 0;
 }
 
 .car-grid-item p {
-    font-size: 14px;
+    font-size: clamp(0.875rem, 2vw, 1rem);
     color: #666;
     margin-bottom: 10px;
 }
 
 .car-price {
-    font-size: 18px;
+    font-size: clamp(1.125rem, 2.5vw, 1.25rem);
     font-weight: 700;
     color: #1743e3;
     margin-bottom: 15px;
@@ -288,7 +288,7 @@ body {
     border: none;
     border-radius: 6px;
     color: white;
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -296,6 +296,7 @@ body {
 .car-btn:hover {
     background: #0f2a7f;
 }
+
 /* Styling for products page ends here */
 /* How It Works Section */
 .how-it-works-section {
@@ -318,23 +319,23 @@ body {
 }
 
 .step i {
-    font-size: 40px;
+    font-size: clamp(2rem, 5vw, 2.5rem);
     margin-bottom: 10px;
     color: #1743e3;
 }
 
 .step h3 {
-    font-size: 18px;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
     margin-bottom: 10px;
 }
 
 .step p {
-    font-size: 14px;
+    font-size: clamp(1rem, 1.5vw, 0.125rem)
 }
 
 /* Book Service Section */
 .how-it-works-section h2 {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: 10px;
     text-align: center;
 }
@@ -359,7 +360,7 @@ body {
 }
 
 .service-type h3 {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: 10px;
 }
 
@@ -374,13 +375,13 @@ body {
 }
 
 .book-service-form h3 {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: 10px;
     text-align: center;
 }
 
 .service-type h3 {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: 10px;
     text-align: center;
 }
@@ -396,6 +397,7 @@ body {
 
 .book-service-section h1
 {
+    font-size: clamp(2rem, 5vw, 2.5rem);
     text-align: center;
 }
 
@@ -405,7 +407,7 @@ body {
 
 .form-group label {
     display: block;
-    font-size: 14px;
+    font-size: clamp(0.875rem, 2vw, 1rem);
     margin-bottom: 5px;
 }
 
@@ -413,7 +415,7 @@ body {
 .form-group select {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -424,7 +426,7 @@ body {
     border: none;
     border-radius: 6px;
     color: white;
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -439,7 +441,7 @@ body {
     border: none;
     border-radius: 6px;
     color: white;
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -457,7 +459,7 @@ body {
 }
 
 .about-us h1 {
-    font-size: 36px;
+    font-size: clamp(2rem, 5vw, 2.5rem);
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
@@ -477,14 +479,14 @@ body {
 }
 
 .grid-item h3 {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     font-weight: 600;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .grid-item p {
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     line-height: 1.6;
     color: #333;
 }
@@ -494,7 +496,7 @@ body {
 }
 
 .about-description p {
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     line-height: 1.6;
     color: #333;
     text-align: justify;
@@ -509,7 +511,7 @@ body {
 }
 
 .testimonials h2 {
-    font-size: 36px;
+    font-size: clamp(2rem, 5vw, 2.5rem);
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
@@ -532,14 +534,14 @@ body {
 }
 
 .testimonial-card p {
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     line-height: 1.6;
     color: #333;
     margin-bottom: 10px;
 }
 
 .testimonial-card h4 {
-    font-size: 18px;
+    font-size: clamp(1.125rem, 3vw, 1.25rem);
     font-weight: 600;
     color: #1743e3;
     text-align: right;
@@ -551,7 +553,7 @@ body {
 }
 
 .stars i {
-    font-size: 18px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
 }
 /* Styling for about page ends here. */
 
@@ -583,7 +585,7 @@ body {
 }
 
 .contact-form h2, .map h2, .office-hours h2, .contact-details h2 {
-    font-size: 28px;
+    font-size: clamp(1.75rem, 4vw, 2rem);
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
@@ -599,7 +601,7 @@ body {
 }
 
 .form-group label {
-    font-size: 16px;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     margin-bottom: 5px;
 }
 
@@ -607,7 +609,7 @@ body {
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: clamp(1rem, 0.5vw, 1rem);
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #ffffff;
@@ -618,7 +620,7 @@ body {
 }
 
 .map p, .office-hours p {
-    font-size: 18px;
+    font-size: clamp(1.125rem, 1vw, 1.25rem);
     margin-bottom: 20px;
 }
 
@@ -643,7 +645,7 @@ iframe {
 }
 
 .details p {
-    font-size: 12px;
+    font-size: clamp(0.5rem, 1vw, 1rem);
     /* margin-bottom: px; */
 }
 
@@ -655,7 +657,7 @@ iframe {
 
 
 .details span {
-    font-size: 24px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     color: #FFD700;
 }
 
@@ -703,7 +705,7 @@ iframe {
 }
 
 .footer-section h2 {
-    font-size: 20px;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
     margin-bottom: 20px;
     position: relative;
     text-transform: uppercase;
@@ -721,6 +723,8 @@ iframe {
 
 .footer-section p {
     line-height: 1.6;
+    font-size: clamp(0.875rem, 2vw, 1rem);
+
 }
 
 .footer-section .socials a {
@@ -733,10 +737,13 @@ iframe {
     line-height: 40px;
     border-radius: 50%;
     transition: all 0.3s;
+    width: clamp(2rem, 5vw, 2.5rem);
+    height: clamp(2rem, 5vw, 2.5rem);
+    line-height: clamp(2rem, 5vw, 2.5rem);
 }
 
 .footer-section .socials a:hover {
-    background: #fff;
+    background: #000000;
     color: #1743e3;
 }
 
@@ -749,6 +756,9 @@ iframe {
 .footer-section .socials a i {
     color: #fff;
 }
+.footer-section .socials a i:hover {
+    color: #000000;
+}
 
 .footer-section .links ul {
     list-style: none;
@@ -756,6 +766,7 @@ iframe {
 
 .footer-section .links ul li {
     margin-bottom: 10px;
+    font-size: clamp(0.875rem, 2vw, 1rem);
 }
 
 .footer-section .links ul li a {
@@ -784,9 +795,6 @@ iframe {
         top: 0;
     }
 
-    .logo {
-        font-size: clamp(20px, 2vw + 1rem, 25px);
-    }
 
     .navbar {
         display: flex;
@@ -805,17 +813,6 @@ iframe {
         margin-top: 10px;
     }
 
-    .home-content h1 {
-        font-size: clamp(36px, 4vw + 2rem, 50px);
-    }
-
-    .home-content h3 {
-        font-size: clamp(30px, 3vw + 1rem, 40px);
-    }
-
-    .home-content p {
-        font-size: clamp(14px, 1.5vw + 1rem, 16px);
-    }
 
     .home-img {
         max-width: 350px;
@@ -838,9 +835,6 @@ iframe {
         padding: 10px;
     }
 
-    .footer-bottom {
-        font-size: 14px;
-    }
 
     .sell-car-content {
         flex-direction: column;
@@ -886,8 +880,15 @@ iframe {
     .car-grid-container {
         grid-template-columns: 1fr;
     }
-  
 
+    .grid-container {
+
+        grid-template-columns: 1fr;
+    }
+
+    .car-filters {
+        flex-direction: column;
+    }
 }
 
 /* Second breakpoint of media query */
@@ -896,33 +897,12 @@ iframe {
         padding: 20px 3%;
     }
 
-    .logo {
-        font-size: clamp(18px, 2vw + 1rem, 20px);
-    }
-
-    .navbar a {
-        font-size: clamp(16px, 2vw + 1rem, 18px);
-    }
-
-    .home-content h1 {
-        font-size: clamp(24px, 4vw + 2rem, 36px);
-    }
-
-    .home-content h3 {
-        font-size: clamp(20px, 3vw + 1rem, 30px);
-    }
-
-    .home-content p {
-        font-size: clamp(12px, 1.5vw + 1rem, 14px);
-    }
 
     .home-img {
         display: none;
     }
 
-    .footer-bottom {
-        font-size: 12px;
-    }
+ 
 
     
 }
