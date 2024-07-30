@@ -27,11 +27,9 @@ body {
 
 .logo {
     font-size: 25px;
-    color: #222;
     text-decoration: none;
     color: blue;
     font-family: "Anton SC", sans-serif;
-    font-weight: 300;
     font-weight: 800;
     opacity: 0;
     animation: slideRight 1s ease forwards;
@@ -878,6 +876,18 @@ iframe {
         flex-direction: column;
     }
 
+    .header
+    {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+
+    .car-grid-container {
+        grid-template-columns: 1fr;
+    }
+  
+
 }
 
 /* Second breakpoint of media query */
@@ -913,6 +923,8 @@ iframe {
     .footer-bottom {
         font-size: 12px;
     }
+
+    
 }
 
 /* Keyframes for animations for index page*/
