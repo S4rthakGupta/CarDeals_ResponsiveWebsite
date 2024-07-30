@@ -31,7 +31,7 @@ body {
     text-decoration: none;
     color: blue;
     font-family: "Anton SC", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-weight: 800;
     opacity: 0;
     animation: slideRight 1s ease forwards;
