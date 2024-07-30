@@ -86,7 +86,7 @@ body {
 
 .social-media a i {
     font-size: clamp(1.5rem, 3vw, 2rem);
-    color: rgb(0, 0, 0);
+    color: #1743e3;
     transform: rotate(-45deg);
 }
 /* Navbar CSS Ended */
@@ -197,6 +197,40 @@ body {
     z-index: -1;
     opacity: 0;
     animation: rhombus2 1s ease forwards;
+}
+
+.three-column {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.three-column .column {
+    flex: 1;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.three-column .column i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.three-column .column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.three-column .column p {
+    font-size: 1rem;
+    color: #555;
 }
 /* Index (Home styling starts here */
 
@@ -888,6 +922,33 @@ iframe {
 
     .car-filters {
         flex-direction: column;
+    }
+
+    .three-column {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .three-column .column {
+        margin: 15px;
+    }
+
+    .home {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .home-content {
+        text-align: left;
+    }
+
+    .home-img {
+        margin-top: 0;
+    }
+
+    .rhombus2
+    {
+        display: none;
     }
 }
 
