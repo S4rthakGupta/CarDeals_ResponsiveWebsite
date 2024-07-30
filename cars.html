@@ -40,7 +40,11 @@
             </div>
             <div class="car-grid-container">
                 <div class="car-grid-item">
-                    <img src="assets/images/car1.png" alt="Image of BMW Car">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="assets/images/car1-small.png">
+                        <source media="(max-width: 1200px)" srcset="assets/images/car1-medium.png">
+                        <img src="assets/images/car1-large.png" alt="Image of BMW Car">
+                    </picture>
                     <h3>BMW M Series</h3>
                     <p>Spacious interior and advanced technology.</p>
                     <div class="car-price">$97,000</div>
