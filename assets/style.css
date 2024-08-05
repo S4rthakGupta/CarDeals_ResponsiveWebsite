@@ -211,17 +211,17 @@ body {
 }
 
 .three-column .column i {
-    font-size: 3rem;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     color: #007bff;
 }
 
 .three-column .column h2 {
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2.5vw, 1.125rem);
     margin: 10px 0;
 }
 
 .three-column .column p {
-    font-size: 1rem;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     color: #555;
 }
 
@@ -244,18 +244,18 @@ body {
 }
 
 .three-column .column i {
-    font-size: 2rem;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     margin-bottom: 1rem;
     color: #007bff;
 }
 
 .three-column .column h2 {
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2.5vw, 1.125rem);
     margin-bottom: 1rem;
 }
 
 .three-column .column p {
-    font-size: 1rem;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     color: #555;
 }
 /* Index (Home styling starts here */
@@ -680,7 +680,7 @@ body {
 }
 
 .map p, .office-hours p {
-    font-size: clamp(1.125rem, 1vw, 1.25rem);
+    font-size: clamp(1rem, 1vw, 1.25rem);
     margin-bottom: 20px;
 }
 
@@ -701,12 +701,7 @@ iframe {
 
 .details {
     margin-bottom: 15px;
-    /* text-align: center; */
-}
 
-.details p {
-    font-size: clamp(0.5rem, 1vw, 1rem);
-    /* margin-bottom: px; */
 }
 
 #details-p1
