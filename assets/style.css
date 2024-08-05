@@ -99,8 +99,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    height: 65vh;
+    padding: 100px 20px;
 }
 
 .home-content {
@@ -951,6 +950,7 @@ iframe {
     .home {
         flex-direction: row;
         justify-content: space-between;
+        padding: 20px;
     }
 
     .home-content {
