@@ -107,27 +107,29 @@ body {
     flex: 1;
     max-width: 50%;
     padding: 20px;
+    padding-left: 6vw;
 }
 
 .home-content h1 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 6vw, 3.125rem);
     margin: 0;
     animation: slideBottom 1s ease forwards;
+    line-height: 1.2;
     animation-delay: 1s;
     opacity: 0;
 }
 
 .home-content h3 {
-    font-size: 2rem;
     color: #555;
     margin: 10px 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1.3s;
     opacity: 0;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
 .home-content p {
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
     margin: 20px 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1.6s;
@@ -188,6 +190,11 @@ body {
     animation-delay: 2s;
     opacity: 0;
     
+}
+
+.btn:hover {
+    background: transparent;
+    color: #1743e3;
 }
 
 .three-column {
