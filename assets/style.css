@@ -280,7 +280,7 @@ body {
 
 .car-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
 }
 
@@ -959,13 +959,13 @@ iframe {
     }
 
 
-    .home-img {
-        display: none;
+    .home-img .rhombus {
+        position: relative; 
+        background: none;
+        border: none;
+        box-shadow: none;
     }
 
- 
-
-    
 }
 
 /* Keyframes for animations for index page*/
