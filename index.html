@@ -17,6 +17,8 @@
     <!-- Linking to Google Fonts to load the Poppins font family with various weights and styles. -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
+<!-- Starting the body tag. -->
 <body>
 
     <!-- This is the header tag. -->
@@ -41,6 +43,7 @@
         </div>
     </header>
         
+    <!-- This is the main body of the index.html (landing page). -->
     <main>
         <section class="home">
             <div class="home-content">
@@ -52,13 +55,16 @@
             
             <div class="home-img">
                 <div class="rhombus">
+                    <!-- Using picture element inside to make it optimized for mobile as well as responsive. -->
                     <picture>
                         <source media="(max-width: 480px)" srcset="assets/images/car1-small.png">
+                        <!-- The car image for the landing page is stored under the assets > images folder and has been given a alt text in the code for accessibility purposes-->
                         <img src="assets/images/car.png" alt="Blue BMW M Series car showcasing">
                     </picture>
                 </div>
             </div>
 
+        <!-- Using a section to make sure it looks as a three column layout in the desktop view.  -->
         </section>
             <section class="three-column">
                 <div class="column">
@@ -78,7 +84,6 @@
                 </div>
             </section>
     </main>
-
 
     <!-- This is the footer and is also consistent on all web pages in the website. -->
     <footer class="footer">
@@ -117,5 +122,7 @@
             &copy; 2024 Car-Deal$ | All Rights Reserved
         </div>
     </footer>
+
+<!-- Closing the body tag.  -->
 </body>
 </html>
