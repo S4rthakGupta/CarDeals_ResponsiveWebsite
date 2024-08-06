@@ -41,30 +41,43 @@
         </div>
     </header>
         
+    <!-- This is the main tag and the page content for the cars page. (cars.html) -->
     <main>
         <section class="car-grid">
             <div class="car-search">
+                <!-- This is a search bar for cars. -->
                 <input type="text" class="car-search-bar" placeholder="Search cars...">
                 <div class="car-filters">
+                    <!-- Two buttons underneath the searchbar with logo importing using font awesome. -->
                     <button class="car-filter-button"><i class="fa-solid fa-sort"></i> Sort: Featured</button>
                     <button class="car-filter-button"><i class="fa-solid fa-arrow-down-short-wide"></i> More Filters</button>
                 </div>
             </div>
+
+            <!-- Startig the div for displaying cars. -->
             <div class="car-grid-container">
                 <div class="car-grid-item">
-                    <picture>
-                        <!-- 480 X 270 -->
-                        <source media="(max-width: 600px)" srcset="assets/images/car1-small.png">
 
-                        <!-- 768 X 432 -->
+                    <!-- Adding a picture element inside for making it optimized for mobile as well as responsive. -->
+                    <picture>
+                        <!-- Adding 3 images inside 1 picture tag. -->
+                         <!-- 2 media query breakpoints: 1200px and 600px. -->
+                        <source media="(max-width: 600px)" srcset="assets/images/car1-small.png">
                         <source media="(max-width: 1200px)" srcset="assets/images/car1-medium.png">
 
-                        <!-- 1280 X 1011 -->
+                        <!-- Adding alt tag for accessibility purposes. -->
                         <img src="assets/images/car1-large.png" alt="Image of BMW Car">
                     </picture>
+                    <!-- Displaying the car name. -->
                     <h3>BMW M Series</h3>
+
+                    <!-- Adding a short description of the car. -->
                     <p>Spacious interior and advanced technology.</p>
+
+                    <!-- Adding the price of the car. -->
                     <div class="car-price">$97,000</div>
+
+                    <!-- Adding a button to view the details of the car. -->
                     <button class="car-btn">View Details</button>
                 </div>
                 <div class="car-grid-item">
@@ -224,6 +237,7 @@
                 </div>
             </section>
     </main>
+    <!-- This is the end of the main body for the cars page. -->
 
     <!-- This is the footer and is also consistent on all web pages in the website. -->
     <footer class="footer">
@@ -262,5 +276,7 @@
             &copy; 2024 Car-Deal$ | All Rights Reserved
         </div>
     </footer>
+
+<!-- Ending the body tag. -->
 </body>
 </html>
