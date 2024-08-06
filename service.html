@@ -41,125 +41,126 @@
         </div>
     </header>
         
+    <!-- This is the main body of the Services page. (service.html) -->
+    <main>
+        <section class="book-service-section">
+            <!-- Giving one H1 per page. -->
+            <h1>Book Your Car Service</h1>
+            <div class="book-service-content">
 
-        
-
-        <main>
-            <section class="book-service-section">
-                <h1>Book Your Car Service</h1>
-                <div class="book-service-content">
-                    
-                    
-                    <div class="book-service-form">
-                        <h3>Service Booking Form</h3>
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" placeholder="Your Email">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone:</label>
-                                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
-                            </div>
-                            <div class="form-group">
-                                <label for="date">Preferred Date:</label>
-                                <input type="date" id="date" name="date">
-                            </div>
-                            <div class="form-group">
-                                <label for="service">Service Type:</label>
-                                <select id="service" name="service">
-                                    <option value="premium">Premium Service</option>
-                                    <option value="golden">Golden Service</option>
-                                </select>
-                            </div>
-                            <button type="submit" class="book-btn">Book Service</button>
-                        </form>
-                    </div>
-    
-                    
-
-                    <div class="service-type">
-                        <h3>Premium Service</h3>
-                    <ul>
-                        <li><i class="fa-solid fa-xmark"></i> Detailing</li>
-                        <li><i class="fa-solid fa-check"></i> Oil Change</li>
-                        <li><i class="fa-solid fa-xmark"></i> Tire Rotation</li>
-                        <li><i class="fa-solid fa-check"></i> Brake Inspection</li>
-                        <li><i class="fa-solid fa-xmark"></i> Battery Check</li>
-                        <li><i class="fa-solid fa-check"></i> Transmission Service</li>
-                        <li><i class="fa-solid fa-xmark"></i> Alignment</li>
-                        <li><i class="fa-solid fa-check"></i> Engine Diagnostics</li>
-                        <li><i class="fa-solid fa-check"></i> Fluid Replacement</li>
-                        <li><i class="fa-solid fa-check"></i> Air Filter Replacement</li>
-                        <li><i class="fa-solid fa-xmark"></i> Wiper Blade Replacement</li>
-                        <li><i class="fa-solid fa-check"></i> Exhaust Inspection</li>
-                        <li><i class="fa-solid fa-xmark"></i> Steering System Check</li>
-                        <li><i class="fa-solid fa-xmark"></i> Lighting System Check</li>
-                        <li><i class="fa-solid fa-check"></i> Electrical System Diagnostics</li>
-                        <li><i class="fa-solid fa-xmark"></i> Transmission Flush</li>
-                        <li><i class="fa-solid fa-xmark"></i> Interior Sanitization</li>
-                    </ul>
+                <!-- Creating a form inside a div. -->
+                <div class="book-service-form">
+                    <h3>Service Booking Form</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date:</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Type:</label>
+                            <select id="service" name="service">
+                                <option value="premium">Premium Service</option>
+                                <option value="golden">Golden Service</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="book-btn">Book Service</button>
+                    </form>
                 </div>
 
+                <!-- Creating a card view for two different types of services. -->
                 <div class="service-type">
-                    <h3>Golden Service</h3>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i> Full Detailing</li>
-                        <li><i class="fa-solid fa-check"></i> Oil Change</li>
-                        <li><i class="fa-solid fa-check"></i> Tire Rotation</li>
-                        <li><i class="fa-solid fa-check"></i> Brake Inspection</li>
-                        <li><i class="fa-solid fa-check"></i> Battery & Engine Check</li>
-                        <li><i class="fa-solid fa-check"></i> Tire Rotation, Alignment</li>
-                        <li><i class="fa-solid fa-check"></i> Complete Inspection</li>
-                        <li><i class="fa-solid fa-check"></i> Suspension Check</li>
-                        <li><i class="fa-solid fa-check"></i> Cooling System Service</li>
-                        <li><i class="fa-solid fa-check"></i> Fluid Replacement</li>
-                        <li><i class="fa-solid fa-check"></i> Air Filter Replacement</li>
-                        <li><i class="fa-solid fa-check"></i> Wiper Blade Replacement</li>
-                        <li><i class="fa-solid fa-check"></i> Steering System Check</li>
-                        <li><i class="fa-solid fa-check"></i> Lighting System Check</li>
-                        <li><i class="fa-solid fa-check"></i> Electrical System Diagnostics</li>
-                        <li><i class="fa-solid fa-check"></i> Transmission Flush</li>
-                        <li><i class="fa-solid fa-check"></i> Interior Sanitization</li>
-                    </ul>
-                </div>
-                </div>
-            </section>
+                    <h3>Premium Service</h3>
+                <ul>
+                    <!-- Using fot awesome's logo for cross and tick to display services included in the package. -->
+                    <li><i class="fa-solid fa-xmark"></i> Detailing</li>
+                    <li><i class="fa-solid fa-check"></i> Oil Change</li>
+                    <li><i class="fa-solid fa-xmark"></i> Tire Rotation</li>
+                    <li><i class="fa-solid fa-check"></i> Brake Inspection</li>
+                    <li><i class="fa-solid fa-xmark"></i> Battery Check</li>
+                    <li><i class="fa-solid fa-check"></i> Transmission Service</li>
+                    <li><i class="fa-solid fa-xmark"></i> Alignment</li>
+                    <li><i class="fa-solid fa-check"></i> Engine Diagnostics</li>
+                    <li><i class="fa-solid fa-check"></i> Fluid Replacement</li>
+                    <li><i class="fa-solid fa-check"></i> Air Filter Replacement</li>
+                    <li><i class="fa-solid fa-xmark"></i> Wiper Blade Replacement</li>
+                    <li><i class="fa-solid fa-check"></i> Exhaust Inspection</li>
+                    <li><i class="fa-solid fa-xmark"></i> Steering System Check</li>
+                    <li><i class="fa-solid fa-xmark"></i> Lighting System Check</li>
+                    <li><i class="fa-solid fa-check"></i> Electrical System Diagnostics</li>
+                    <li><i class="fa-solid fa-xmark"></i> Transmission Flush</li>
+                    <li><i class="fa-solid fa-xmark"></i> Interior Sanitization</li>
+                </ul>
+            </div>
+            <!-- Another div for service package number:2 -->
+            <div class="service-type">
+                <h3>Golden Service</h3>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Full Detailing</li>
+                    <li><i class="fa-solid fa-check"></i> Oil Change</li>
+                    <li><i class="fa-solid fa-check"></i> Tire Rotation</li>
+                    <li><i class="fa-solid fa-check"></i> Brake Inspection</li>
+                    <li><i class="fa-solid fa-check"></i> Battery & Engine Check</li>
+                    <li><i class="fa-solid fa-check"></i> Tire Rotation, Alignment</li>
+                    <li><i class="fa-solid fa-check"></i> Complete Inspection</li>
+                    <li><i class="fa-solid fa-check"></i> Suspension Check</li>
+                    <li><i class="fa-solid fa-check"></i> Cooling System Service</li>
+                    <li><i class="fa-solid fa-check"></i> Fluid Replacement</li>
+                    <li><i class="fa-solid fa-check"></i> Air Filter Replacement</li>
+                    <li><i class="fa-solid fa-check"></i> Wiper Blade Replacement</li>
+                    <li><i class="fa-solid fa-check"></i> Steering System Check</li>
+                    <li><i class="fa-solid fa-check"></i> Lighting System Check</li>
+                    <li><i class="fa-solid fa-check"></i> Electrical System Diagnostics</li>
+                    <li><i class="fa-solid fa-check"></i> Transmission Flush</li>
+                    <li><i class="fa-solid fa-check"></i> Interior Sanitization</li>
+                </ul>
+            </div>
+            </div>
+        </section>
 
-            <section class="how-it-works-section">
-                <h2>How It Works</h2>
-                <div class="how-it-works-content">
-                    <div class="step">
-                        <i class="fas fa-truck"></i>
-                        <h3>Describe Your Ride</h3>
-                        <p>Share a few quick details about your car’s condition and history.</p>
-                        <p>Include information such as the make, model, year, mileage, and any notable features or issues. This helps us give you the most accurate offer.</p>
-                    </div>
-                    <div class="step">
-                        <i class="fas fa-calendar-alt"></i>
-                        <h3>Set a Date</h3>
-                        <p>Drop your car off at one of our locations, or arrange a pick-up.</p>
-                        <p>We provide flexible scheduling options to fit your busy life. Choose a convenient time and place, and we’ll handle the rest.</p>
-                    </div>
-                    <div class="step">
-                        <i class="fas fa-money-check-alt"></i>
-                        <h3>Get Paid Instantly</h3>
-                        <p>Receive your payment on the spot once the car has been inspected.</p>
-                        <p>We offer various payment methods, ensuring you get your money quickly and securely.</p>
-                    </div>
-                    <div class="step">
-                        <i class="fas fa-smile"></i>
-                        <h3>Enjoy the Convenience</h3>
-                        <p>Experience a seamless process designed to make selling your car easy and stress-free.</p>
-                        <p>Our dedicated support team is here to assist you at every step, ensuring a smooth and pleasant experience.</p>
-                    </div>
+        <!-- Adding a section for display how the service works. -->
+        <section class="how-it-works-section">
+            <h2>How It Works</h2>
+            <div class="how-it-works-content">
+                <div class="step">
+                    <i class="fas fa-truck"></i>
+                    <h3>Describe Your Ride</h3>
+                    <p>Share a few quick details about your car's condition and history.</p>
+                    <p>Include information such as the make, model, year, mileage, and any notable features or issues. This helps us give you the most accurate offer.</p>
                 </div>
-            </section>
-        </main>
+                <div class="step">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Set a Date</h3>
+                    <p>Drop your car off at one of our locations, or arrange a pick-up.</p>
+                    <p>We provide flexible scheduling options to fit your busy life. Choose a convenient time and place, and we’ll handle the rest.</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-money-check-alt"></i>
+                    <h3>Get Paid Instantly</h3>
+                    <p>Receive your payment on the spot once the car has been inspected.</p>
+                    <p>We offer various payment methods, ensuring you get your money quickly and securely.</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-smile"></i>
+                    <h3>Enjoy the Convenience</h3>
+                    <p>Experience a seamless process designed to make selling your car easy and stress-free.</p>
+                    <p>Our dedicated support team is here to assist you at every step, ensuring a smooth and pleasant experience.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Ending the main body. -->
         
 
     <!-- This is the footer and is also consistent on all web pages in the website. -->

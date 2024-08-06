@@ -88,6 +88,7 @@ body {
     font-size: clamp(1.5rem, 3vw, 2rem);
     color: #1743e3;
     transform: rotate(-45deg);
+    
 }
 /* Navbar CSS Ended */
 
@@ -207,6 +208,9 @@ body {
     flex: 1;
     padding: 20px;
     text-align: center;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.3s;
+    opacity: 0;
 }
 
 .three-column .column i {
@@ -961,10 +965,6 @@ iframe {
         margin-top: 0;
     }
 
-    .rhombus2
-    {
-        display: none;
-    }
 
     .home-content, .home-img {
         max-width: 100%;
@@ -988,13 +988,7 @@ iframe {
         padding: 20px 3%;
     }
 
-
-    .home-img .rhombus {
-        position: relative; 
-        background: none;
-        border: none;
-        box-shadow: none;
-    }
+    
 
 }
 
@@ -1063,7 +1057,8 @@ iframe {
     }
 }
 
-@keyframes rhombus2 {
+
+@keyframes slideSci {
     from {
         opacity: 0;
         transform: rotate(45deg) scale(0.5);
