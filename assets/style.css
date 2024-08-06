@@ -35,7 +35,7 @@ body {
     animation: slideRight 1s ease forwards;
 }
 
-#logo-span
+.logo-span
 {
     color: #f46e00;
     font-family: "Anton SC", sans-serif;
