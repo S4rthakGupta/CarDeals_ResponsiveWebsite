@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <!-- Adding meta tags for description as well as for using media queries. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <meta name="description" content="Discover the best cars at Car Deal. Explore a wide selection of vehicles and enjoy top-notch service. Drive away with your dream car today!">
+    <title>Home</title>
+    <!-- This is the stylsheet which is stored under the assets folder. -->
     <link rel="stylesheet" href="assets/style.css">
+
+    <!-- This below is the link to Font Awesome for icon usage -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+    <!-- Linking to Google Fonts to load the Poppins font family with various weights and styles. -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <!-- This is the header tag. -->
     <header class="header">
-        <a href="index.html" class="logo">Car-Deal<span class="logo-span">$</span> </a>
+        <!--  Linking the logo to the home page and giving it a span to colour the $ sign differently-->
+        <a href="index.html" class="logo">Car-Deal<span class="logo-span">$</span></a>
         
+        <!-- This is the navbar and it stays consistent on all web pages. -->
         <nav class="navbar">
-            <a href="index.html" data-index="1">Home</a>
+            <a href="index.html" class="active" data-index="1">Home</a>
             <a href="cars.html" data-index="2">Cars</a>
             <a href="service.html" data-index="3">Service</a>
-            <a href="about.html" class="active" data-index="4">About Us</a>
+            <a href="about.html" data-index="4">About Us</a>
             <a href="contact.html" data-index="5">Contact</a>
         </nav>
         
+        <!-- This is a div with a class which has icons for 3 different social media web applications. -->
         <div class="social-media">
             <a href="https://www.facebook.com" data-index="1"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.twitter.com" data-index="2"><i class="fa-brands fa-twitter"></i></a>
@@ -93,13 +103,16 @@
         </section>
     </main>
 
+    <!-- This is the footer and is also consistent on all web pages in the website. -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section about">
                 <h2>About</h2>
+                <!-- It has the same logo as the navbar but with a different colour. -->
                 <a href="index.html" class="logo">Car-Deal<span class="logo-span">$</span></a>
                 <p>is dedicated to providing an exceptional car buying experience. We offer a wide range of vehicles to suit every need and budget, backed by unparalleled customer service.</p>
             </div>
+            <!-- These are the links which are same as navbar. -->
             <div class="footer-section links">
                 <h2>Quick Links</h2>
                 <ul>
@@ -110,6 +123,7 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+            <!-- Some details for contacting car-deals -->
             <div class="footer-section contact">
                 <h2>Contact Us</h2>
                 <p><i class="fas fa-phone-alt"></i> +1 365-456-7890</p>
@@ -121,6 +135,7 @@
                 </div>
             </div>
         </div>
+        <!-- A copyright mark and a text on the footer. -->
         <div class="footer-bottom">
             &copy; 2024 Car-Deal$ | All Rights Reserved
         </div>
